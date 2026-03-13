@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { background-color: #121212; color: #ffffff; font-family: Arial, sans-serif; }
+        header { display: flex; justify-content: space-between; padding: 20px; }
+        #hero { background: url('hero-bg.jpg') no-repeat center center; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+        #about, #skills, #projects, #certifications, #contact { padding: 50px; }
+        .skill-card { background-color: #1e1e1e; padding: 20px; margin: 10px; border-radius: 5px; }
+        .terminal { background: #000; color: #0f0; padding: 20px; font-family: monospace; animation: blink 1s step-end infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Portfolio</h1>
+        <nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a></nav>
+    </header>
+    <div id="hero">
+        <h2>Welcome to My Cybersecurity Portfolio</h2>
+        <div class="terminal">$ ls
+            
+            About
+            Skills
+            Projects
+            Certifications
+            Contact
+        </div>
+    </div>
+    <div id="about">
+        <h3>About Me</h3>
+        <p>I am a cybersecurity specialist with a passion for protecting information systems.</p>
+    </div>
+    <div id="skills">
+        <h3>Skills</h3>
+        <div class="skill-card">Networking</div>
+        <div class="skill-card">Penetration Testing</div>
+        <div class="skill-card">Malware Analysis</div>
+    </div>
+    <div id="projects">
+        <h3>Projects</h3>
+        <ul>
+            <li><a href="https://github.com/project1" target="_blank">Project 1</a></li>
+            <li><a href="https://github.com/project2" target="_blank">Project 2</a></li>
+        </ul>
+    </div>
+    <div id="certifications">
+        <h3>Certifications</h3>
+        <p>Certified Ethical Hacker (CEH)</p>
+        <p>CompTIA Security+</p>
+    </div>
+    <div id="contact">
+        <h3>Contact Me</h3>
+        <p>Email: myemail@example.com</p>
+    </div>
+    <footer>
+        <p>&copy; 2026 Mithun1694</p>
+    </footer>
+</body>
+</html>
